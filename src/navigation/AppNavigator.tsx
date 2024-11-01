@@ -51,7 +51,7 @@ const AppNavigator = () => {
       <Stack.Screen name="Onboarding" component={SplashScreenComponent} options={{ headerShown: false }} />
       <Stack.Screen name="Login" component={Login} options={{ headerShown: false }} />
       <Stack.Screen name="Sign" component={Sign} options={{ headerShown: false }} />
-      <Stack.Screen name="UserAge" component={UserAge} options={{ headerShown: false }} />
+      <Stack.Screen name="UserAge" component={UserAge} options={{ headerShown: true, headerTitle: "" }} />
       <Stack.Screen name="Home" component={HomeStack} options={{ headerShown: false }} />
     </Stack.Navigator>
   );
